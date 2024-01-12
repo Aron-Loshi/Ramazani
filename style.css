@@ -1,0 +1,23 @@
+#ramazani {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#ramazani th, #ramazani td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#ramazani th {
+    background-color: #f2f2f2;
+}
+
+#ramazani tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#ramazani tbody tr:hover {
+    background-color: #d9d9d9;
+}
